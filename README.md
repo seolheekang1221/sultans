@@ -3,7 +3,12 @@
 
 - Task 2: Create an hourly scheduled job that updates the current inventory for all products from the Vendor Nectar to {{current Inventory}} + 1 (e.g. if current inventory is 100, product should show 101).  This needs to use the GraphQL API.
 
-# Please install packages
+# Install the required packages:
 ```
 npm install axios node-cron dotenv
+```
+
+# Run the project with:
+```
+node index.js
 ```
