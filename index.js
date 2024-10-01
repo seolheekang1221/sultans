@@ -21,6 +21,7 @@ const shopifyGraphQL = async (query) => {
   }
 };
 
+//TASK 1
 const getProductQuery = `
   {
     products(first: 1, query: "title:Ala Artemis - 3280 - Seolhee") {
@@ -76,6 +77,7 @@ shopifyGraphQL(getProductQuery).then((data) => {
   });
 });
 
+//TASK 2
 const getNectarProductsQuery = `
   {
     products(first: 50, query: "vendor:Nectar") {
