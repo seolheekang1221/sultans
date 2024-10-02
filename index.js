@@ -1,4 +1,4 @@
-require("dotenv").config(); // dotenv 패키지를 사용해 환경 변수 로드
+require("dotenv").config();
 const axios = require("axios");
 const cron = require("node-cron");
 
